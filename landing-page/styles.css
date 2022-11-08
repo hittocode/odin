@@ -1,0 +1,217 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 5% 0;
+    margin: 0 auto;
+    background-color:darkolivegreen;
+    align-items: center;
+    color: white;
+}
+
+.hero-left {
+    padding-left: 10%;
+}
+.hero h1 {
+    font-size: 250%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 0;
+}
+
+.hero button {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    color: white; 
+}
+
+.hero button:hover {
+    background-color:chocolate;
+    transition: 0.3s;
+}
+
+.hero button:active {
+    background-color: red;
+    box-shadow:#fff
+}
+
+
+.heroimage {
+    width: 600px;
+    overflow: hidden;
+   padding: 0;
+   margin: 0;
+   padding-right: 10%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.flavors {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    padding: 0 10%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.gallery .flavortown {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+     flex-wrap: wrap;
+}
+
+.gallery h2 {
+    text-align: center;
+}
+
+.flavortown {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+.flavors img {
+    width: 100px;
+    border-radius: 20px;
+    border: 3px solid darkolivegreen;
+}
+
+.gallery figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quotebox {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-content: center;
+    padding: 5% 10%;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.quote  .signature {
+    text-align: right;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.cta {
+    background-color: red ;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 0 10%;
+    margin: 5% 10%;
+    border-radius: 10px;
+}
+
+
+.ctatext {
+    color: white;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.ctatext h2 {
+    font-size: 1em;
+}
+.ctatext p {
+    margin-top: -2%;
+}
+
+.ctabutton {
+    display: flex;
+    align-items: center;
+    
+}
+.ctabutton button {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    color: white; 
+
+}
+
+button {
+    border: 3px solid white;
+}
+
+.ctabutton button:hover {
+    background-color:chocolate;
+    transition: 0.3s;
+}
+
+.ctabutton button:active {
+    background-color: red;
+    box-shadow:#fff
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: -100%;
+    padding: 1px
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}

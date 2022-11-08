@@ -39,7 +39,7 @@ header a {
 }
 
 .hero-left {
-    padding-left: 10%;
+    margin-left: 20%;
 }
 .hero h1 {
     font-size: 250%;
@@ -73,11 +73,11 @@ header a {
 
 
 .heroimage {
-    width: 600px;
-    overflow: hidden;
+    width: 400px;
    padding: 0;
    margin: 0;
-   padding-right: 10%;
+   margin-right: 20%;
+   border-radius: 20px;
 }
 
 .gallery {

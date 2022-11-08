@@ -90,7 +90,6 @@ header a {
 .flavors {
     display: flex;
     justify-content: center;
-    
     gap: 20px;
     padding: 0 10%;
     height: 100%;
@@ -101,7 +100,7 @@ header a {
     align-items: center;
     max-width: 100%;
     height: auto;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .gallery h2 {
@@ -114,7 +113,7 @@ header a {
    flex: 1;
 }
 .flavors img {
-    width: 100px;
+    width: 150px;
     border-radius: 20px;
     border: 3px solid darkolivegreen;
 }
